@@ -1,5 +1,6 @@
 import AppClima from './components/AppClima'
 import  { ClimaProvider } from './context/ClimaProvider'
+import Footer from './components/Footer'
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
           <h1>Buscador de clima</h1>
         </header>
         <AppClima />
+        <Footer />
       </ClimaProvider>
     )
 }

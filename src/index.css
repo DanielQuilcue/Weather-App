@@ -80,11 +80,12 @@ input[type="submit"] {
   border: none;
   width: 100%;
   transition: background-color .3s ease;
+  border-radius: 12px;
 }
 
 @media (min-width: 768px) {
   input[type="submit"] {
-    max-width: 400px;
+    max-width: 252px;
   }
 }
 
@@ -165,4 +166,24 @@ input[type="submit"]:hover {
   display: flex;
   justify-content: center;
   gap: 2rem;
+}
+
+/* Footer */
+footer {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+.footer__context {
+  background-color: #0ea5e9;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+  padding: 8px;
+  font-weight: 400;
+}
+
+p {
+  text-align: center;
 }
